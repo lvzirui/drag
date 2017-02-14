@@ -4,4 +4,7 @@ function drag(id){
 	var disY=0;
 	obj.onmousedown=function(ev){
 	}
+	obj.onmousemove=function(ev){
+		obj.style.left=123+"px"
+	}
 }
