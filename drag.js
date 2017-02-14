@@ -5,5 +5,6 @@ function drag(id){
 	obj.onmousedown=function(ev){
 	}
 	obj.onmousemove=function(ev){
+		obj.style.left=123+"px"
 	}
 }
